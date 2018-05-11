@@ -21,6 +21,8 @@ function destructivelyRemoveFirstKitten() {
   return kittens.shift();
 }
 
+
+
 const moreKittens = function appendKitten(name) {
   return [name, ...kittens];
 }

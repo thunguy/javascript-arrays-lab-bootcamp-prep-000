@@ -21,7 +21,7 @@ function destructivelyRemoveFirstKitten() {
   return kittens.shift();
 }
 
-var appendKitten = function appendKitten(name) {
+const moreKittens = function appendKitten(name) {
   return [name, ...kittens];
 }
 

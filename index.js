@@ -21,11 +21,10 @@ function destructivelyRemoveFirstKitten() {
   return kittens.shift();
 }
 
-const ogKittens = kitten
-
 const moreKittens = function appendKitten(name) {
-  return [name, ...kittens];
+  return [...kittens, name];
 }
+
 
 
 

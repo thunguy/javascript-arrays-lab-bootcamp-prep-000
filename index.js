@@ -1,5 +1,5 @@
 const app = "I don't do much."
-const kittens = [
+var kittens = [
   "Milo",
   "Otis",
   "Garfield",
@@ -21,9 +21,12 @@ function destructivelyRemoveFirstKitten() {
   return kittens.shift();
 }
 
+const ogKittens = kitten
+
 const moreKittens = function appendKitten(name) {
   return [name, ...kittens];
 }
+
 
 
 
